@@ -24,8 +24,8 @@ public class Login_Page {
 		this.test = test;
 	}
 	
-	@FindBy(id = "username_show")
-	WebElement welcomeText;
+//	@FindBy(id = "username_show")
+//	WebElement welcomeText;
 	
 	public Login_Page(WebDriver driver) {
 		this.driver = driver;
@@ -68,17 +68,4 @@ public class Login_Page {
 		assertEquals(value, expected);
 	}
 	
-	
-//	public void assertAttribute(String expected) {
-//		String value = welcomeText.getAttribute(value);
-//		assertEquals(value, expected);		
-//	}
-//	
-//	public void assertText(String expected) {
-//		String status = textField.getText();
-//		assertEquals(text, expected);
-//	}
-	
-	
-
 }
