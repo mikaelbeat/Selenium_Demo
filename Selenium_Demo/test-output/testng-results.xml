@@ -2,20 +2,24 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Login test" duration-ms="34486" started-at="2017-10-17T07:55:32Z" finished-at="2017-10-17T07:56:07Z">
+  <suite name="Login test" duration-ms="38138" started-at="2017-10-17T08:09:41Z" finished-at="2017-10-17T08:10:19Z">
     <groups>
     </groups>
-    <test name="Login test with valid credentials." duration-ms="16390" started-at="2017-10-17T07:55:32Z" finished-at="2017-10-17T07:55:49Z">
+    <test name="Login test with valid credentials." duration-ms="20037" started-at="2017-10-17T08:09:41Z" finished-at="2017-10-17T08:10:01Z">
       <class name="tests.Login_test_valid_credentials">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.Login_test_valid_credentials@6a4f787b]" name="beforeClass" is-config="true" duration-ms="12824" started-at="2017-10-17T10:55:32Z" finished-at="2017-10-17T10:55:45Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.Login_test_valid_credentials@6a4f787b]" name="beforeClass" is-config="true" duration-ms="16485" started-at="2017-10-17T11:09:41Z" finished-at="2017-10-17T11:09:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="Login_test_with_valid_credentials()[pri:0, instance:tests.Login_test_valid_credentials@6a4f787b]" name="Login_test_with_valid_credentials" duration-ms="1872" started-at="2017-10-17T10:55:45Z" finished-at="2017-10-17T10:55:47Z">
+        <test-method status="PASS" signature="Login_test_with_valid_credentials()[pri:0, instance:tests.Login_test_valid_credentials@6a4f787b]" name="Login_test_with_valid_credentials" duration-ms="1868" started-at="2017-10-17T11:09:57Z" finished-at="2017-10-17T11:09:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_test_with_valid_credentials -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.Login_test_valid_credentials@6a4f787b]" name="afterMethod" is-config="true" duration-ms="4" started-at="2017-10-17T10:55:47Z" finished-at="2017-10-17T10:55:47Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.Login_test_valid_credentials@6a4f787b]" name="afterClass" is-config="true" duration-ms="1649" started-at="2017-10-17T11:09:59Z" finished-at="2017-10-17T11:10:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.Login_test_valid_credentials@6a4f787b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-10-17T11:09:59Z" finished-at="2017-10-17T11:09:59Z">
           <params>
             <param index="0">
               <value>
@@ -26,19 +30,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.Login_test_valid_credentials@6a4f787b]" name="afterClass" is-config="true" duration-ms="1573" started-at="2017-10-17T10:55:47Z" finished-at="2017-10-17T10:55:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
       </class> <!-- tests.Login_test_valid_credentials -->
     </test> <!-- Login test with valid credentials. -->
-    <test name="Login test with invalid credentials." duration-ms="18058" started-at="2017-10-17T07:55:49Z" finished-at="2017-10-17T07:56:07Z">
+    <test name="Login test with invalid credentials." duration-ms="18069" started-at="2017-10-17T08:10:01Z" finished-at="2017-10-17T08:10:19Z">
       <class name="tests.Login_test_invalid_credentials">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.Login_test_invalid_credentials@14bf9759]" name="beforeClass" is-config="true" duration-ms="5363" started-at="2017-10-17T10:55:49Z" finished-at="2017-10-17T10:55:54Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.Login_test_invalid_credentials@14bf9759]" name="beforeClass" is-config="true" duration-ms="5358" started-at="2017-10-17T11:10:01Z" finished-at="2017-10-17T11:10:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="FAIL" signature="Login_test_with_valid_credentials()[pri:0, instance:tests.Login_test_invalid_credentials@14bf9759]" name="Login_test_with_valid_credentials" duration-ms="10986" started-at="2017-10-17T10:55:54Z" finished-at="2017-10-17T10:56:05Z">
+        <test-method status="FAIL" signature="Login_test_with_valid_credentials()[pri:0, instance:tests.Login_test_invalid_credentials@14bf9759]" name="Login_test_with_valid_credentials" duration-ms="10975" started-at="2017-10-17T11:10:06Z" finished-at="2017-10-17T11:10:17Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -82,7 +82,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_test_with_valid_credentials -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.Login_test_invalid_credentials@14bf9759]" name="afterMethod" is-config="true" duration-ms="515" started-at="2017-10-17T10:56:05Z" finished-at="2017-10-17T10:56:06Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.Login_test_invalid_credentials@14bf9759]" name="afterMethod" is-config="true" duration-ms="535" started-at="2017-10-17T11:10:17Z" finished-at="2017-10-17T11:10:18Z">
           <params>
             <param index="0">
               <value>
@@ -93,7 +93,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.Login_test_invalid_credentials@14bf9759]" name="afterClass" is-config="true" duration-ms="1182" started-at="2017-10-17T10:56:06Z" finished-at="2017-10-17T10:56:07Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.Login_test_invalid_credentials@14bf9759]" name="afterClass" is-config="true" duration-ms="1200" started-at="2017-10-17T11:10:18Z" finished-at="2017-10-17T11:10:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
