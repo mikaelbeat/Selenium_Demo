@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login test">
+  <test name="Login test with valid credentials.">
+    <classes>
+      <class name="tests.Login_test_valid_credentials"/>
+    </classes>
+  </test>
+    <test name="Login test with invalid credentials.">
+    <classes>
+      <class name="tests.Login_test_invalid_credentials"/>
+    </classes>
+  </test>
+</suite>
