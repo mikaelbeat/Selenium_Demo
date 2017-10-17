@@ -24,9 +24,6 @@ public class Login_Page {
 		this.test = test;
 	}
 	
-//	@FindBy(id = "username_show")
-//	WebElement welcomeText;
-	
 	public Login_Page(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
@@ -41,7 +38,7 @@ public class Login_Page {
 	public void Fill_password(String user) {
 		  WebElement passwordField = driver.findElement(By.id("password"));
 		  passwordField.sendKeys(user);
-		  test.log(LogStatus.INFO, "Filled username.");
+		  test.log(LogStatus.INFO, "Filled password.");
 	}
 	
 	public void Click_login_button() {
@@ -59,13 +56,14 @@ public class Login_Page {
 			  System.out.println(e.getMessage());
 		  }
 		  Assert.assertTrue(welcomeText != null);
-		  test.log(LogStatus.PASS, "Verified Welcome Text");
+		  test.log(LogStatus.PASS, "Welcome Text found.");
 	  }
 	
 	public void assert_welcome_text(String expected){
 		WebElement welcome = driver.findElement(By.id("username_show"));
 		String value = welcome.getAttribute("value");
 		assertEquals(value, expected);
+		test.log(LogStatus.PASS, "Verified Welcome text value.");
 	}
 	
 }

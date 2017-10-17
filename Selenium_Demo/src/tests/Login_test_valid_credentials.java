@@ -58,7 +58,7 @@ public class Login_test_valid_credentials {
 	  if (testResult.getStatus() == ITestResult.FAILURE) {
 		  String path = Screenshot.takeScreenshot(driver, testResult.getName());
 		  String imagePath = test.addScreenCapture(path);
-		  test.log(LogStatus.FAIL, "Verify Welcome Text Failed", imagePath);
+		  test.log(LogStatus.FAIL, "Verify Welcome Text Failed.", imagePath);
 	  }
   }
 
