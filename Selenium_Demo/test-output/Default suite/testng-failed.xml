@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.Login_test_valid_credentials">
+      <class name="tests.Login_test_invalid_credentials">
         <methods>
-          <include name="afterMethod"/>
           <include name="afterClass"/>
+          <include name="afterMethod"/>
           <include name="Login_test_with_valid_credentials"/>
           <include name="beforeClass"/>
         </methods>
-      </class> <!-- tests.Login_test_valid_credentials -->
+      </class> <!-- tests.Login_test_invalid_credentials -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
