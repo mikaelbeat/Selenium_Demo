@@ -40,12 +40,12 @@ public class Login_test_invalid_credentials {
 	  test.log(LogStatus.INFO, "Browser started.");
 	  driver.manage().window().maximize();
 	  test.log(LogStatus.INFO, "Browser maximized");
-	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	  driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	  test.log(LogStatus.INFO, "Web application opened.");
   }
   
   @Test
-  public void Login_test_with_valid_credentials() {
+  public void Login_test_with_invalid_credentials() {
 	  loginPage.Fill_username("username");
 	  loginPage.Fill_password("password");
 	  loginPage.Click_login_button();

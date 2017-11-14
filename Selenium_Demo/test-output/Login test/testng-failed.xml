@@ -7,7 +7,7 @@
         <methods>
           <include name="afterClass"/>
           <include name="afterMethod"/>
-          <include name="Login_test_with_valid_credentials"/>
+          <include name="Login_test_with_invalid_credentials"/>
           <include name="beforeClass"/>
         </methods>
       </class> <!-- tests.Login_test_invalid_credentials -->
