@@ -3,20 +3,19 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
-	<classpathentry kind="lib" path="E:/Programs/Selenium-java-3.7.1/client-combined-3.7.1.jar"/>
-	<classpathentry kind="lib" path="E:/Programs/Selenium-java-3.7.1/client-combined-3.7.1-sources.jar"/>
-	<classpathentry kind="lib" path="E:/Programs/Selenium-java-3.7.1/libs/byte-buddy-1.7.5.jar"/>
-	<classpathentry kind="lib" path="E:/Programs/Selenium-java-3.7.1/libs/commons-codec-1.10.jar"/>
-	<classpathentry kind="lib" path="E:/Programs/Selenium-java-3.7.1/libs/commons-exec-1.3.jar"/>
-	<classpathentry kind="lib" path="E:/Programs/Selenium-java-3.7.1/libs/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="E:/Programs/Selenium-java-3.7.1/libs/gson-2.8.2.jar"/>
-	<classpathentry kind="lib" path="E:/Programs/Selenium-java-3.7.1/libs/guava-23.0.jar"/>
-	<classpathentry kind="lib" path="E:/Programs/Selenium-java-3.7.1/libs/httpclient-4.5.3.jar"/>
-	<classpathentry kind="lib" path="E:/Programs/Selenium-java-3.7.1/libs/httpcore-4.4.6.jar"/>
-	<classpathentry kind="lib" path="E:/Programs/Reporters/extentreports-2.40.1.jar"/>
-	<classpathentry kind="lib" path="E:/Programs/Reporters/freemarker-2.3.23.jar"/>
-	<classpathentry kind="lib" path="E:/Programs/Reporters/jsoup-1.8.3.jar"/>
-	<classpathentry kind="lib" path="E:/Programs/Reporters/sqlite-jdbc-3.8.11.jar"/>
-	<classpathentry kind="lib" path="E:/Programs/Fileutils/commons-io-2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/petri.ryynanen/eclipse-workspace/Selenium/client-combined-3.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/petri.ryynanen/eclipse-workspace/Selenium/client-combined-3.8.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/petri.ryynanen/eclipse-workspace/Selenium/libs/byte-buddy-1.7.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/petri.ryynanen/eclipse-workspace/Selenium/libs/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/petri.ryynanen/eclipse-workspace/Selenium/libs/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/petri.ryynanen/eclipse-workspace/Selenium/libs/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/petri.ryynanen/eclipse-workspace/Selenium/libs/gson-2.8.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/petri.ryynanen/eclipse-workspace/Selenium/libs/guava-23.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/petri.ryynanen/eclipse-workspace/Selenium/libs/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/petri.ryynanen/eclipse-workspace/Selenium/libs/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/petri.ryynanen/eclipse-workspace/Reporters/extentreports-2.40.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/petri.ryynanen/eclipse-workspace/Reporters/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="C:/Users/petri.ryynanen/eclipse-workspace/Reporters/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/petri.ryynanen/eclipse-workspace/Reporters/sqlite-jdbc-3.8.11.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

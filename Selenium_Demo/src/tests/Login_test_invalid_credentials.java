@@ -22,6 +22,11 @@ import utilities.*;
 
 public class Login_test_invalid_credentials {
 	
+	long startTime;
+	long endTime;
+	long duration;
+	double seconds;
+	
 	private WebDriver driver;
 	private String baseUrl;
 	ExtentReports report;
@@ -46,11 +51,16 @@ public class Login_test_invalid_credentials {
   
   @Test
   public void Login_test_with_invalid_credentials() {
+	  startTime = System.nanoTime();
 	  loginPage.Fill_username("username");
 	  loginPage.Fill_password("password");
 	  loginPage.Click_login_button();
 	  loginPage.Check_welcome_text();
 	  loginPage.assert_welcome_text("Hello ryynanenphm!");
+	  endTime = System.nanoTime();
+	  duration = endTime - startTime;
+	  seconds = (double) duration / 1000000000.0;
+	  test.log(LogStatus.INFO, "Time taken to execute test: " + seconds + ".");
   }
   
   @AfterMethod
