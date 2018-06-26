@@ -12,7 +12,7 @@ public class Screenshot {
 	
 	public static String takeScreenshot(WebDriver driver, String fileName) throws IOException {
 		fileName = fileName + ".jpg";
-		String directory = System.getProperty("user.dir")+"\\Reports\\Screenshots\\"";
+		String directory = System.getProperty("user.dir")+"\\Reports\\Screenshots\\";
 		File sourceFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(sourceFile, new File(directory + fileName));
 		String destination = directory + fileName;
