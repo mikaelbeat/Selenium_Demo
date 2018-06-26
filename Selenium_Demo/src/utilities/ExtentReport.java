@@ -6,7 +6,7 @@ public class ExtentReport {
 	
 	public static ExtentReports reportResult() {
 		ExtentReports extent;
-		String Path = "C:\\Users\\petri.ryynanen\\Desktop\\Selenium\\Reports\\Login_Report.html";
+		String Path = System.getProperty("user.dir")+"\\Reports\\Report\\Report.html";
 		extent = new ExtentReports(Path, false);
 		return extent;
 
